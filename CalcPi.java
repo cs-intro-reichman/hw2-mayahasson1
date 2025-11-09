@@ -1,5 +1,3 @@
-
-
 public class CalcPi {
     public static void main(String [] args) { 
         int repeat=Integer.parseInt(args[0]);
@@ -11,8 +9,8 @@ public class CalcPi {
             i++;
         }
         sum=sum*4;
-        System.out.println("pi according to Java: "+Math.PI);
-        System.out.println("pi, approximated: "+sum);
+        System.out.println("pi according to Java: " + Math.PI);
+        System.out.println("pi, approximated:     " + sum);
     }
 }
 

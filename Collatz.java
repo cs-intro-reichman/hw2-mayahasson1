@@ -1,13 +1,11 @@
-
 public class Collatz {
     public static void main(String args[]) {
         int N=Integer.parseInt(args[0]);
         String mode= args[1];
-        int num=0;
         for(int i=1; i<=N; i++)
         {
-            int step=0;
-            num=i;
+			int num=i;
+            int step=1;
             if(mode.equals("v"))
             {
                 System.out.print(num+" ");
