@@ -5,7 +5,7 @@ public class Collatz {
         for(int i=1; i<=N; i++)
         {
 			int num=i;
-            int step=1;
+            int step=0;
             if(mode.equals("v"))
             {
                 System.out.print(num+" ");
@@ -29,7 +29,7 @@ public class Collatz {
             }
             if (mode.equals("v")) 
             {
-                System.out.println("("+step+")");
+                System.out.println("("+(step+1)+")");
             }
         }
             System.out.println("Every one of the first "+N+" hailstone sequences reached 1.");
